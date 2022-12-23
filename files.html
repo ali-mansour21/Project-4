@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome library -->
+<link rel="stylesheet" href="css/all.min.css">
+    <!--  FrameWork -->
+    <link rel="stylesheet" href="css/framework.css" />
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="css/master.css" />
+        <!-- Render all Elements in browser -->
+        <link rel="stylesheet" href="css/normalize.css">
+    <!-- The Font In The Dashboard -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Files</title>
+</head>
+<body>
+ <div class="page d-flex">
+    <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0">Ali</h3>
+        <ul class="list-none p-0">
+            <li><a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                <i class="fa-solid fa-chart-simple fa-fw"></i> 
+                <span class="hide-mobile">Dashboard</span>
+            </a></li>
+            <li><a class="  d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                <i class="fa-solid fa-gear fa-fw"></i>
+                <span class="hide-mobile">Settings</span>
+            </a></li>
+            <li><a class="  d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                <i class="fa-solid fa-user fa-fw"></i>
+                <span class="hide-mobile">Profile</span>
+            </a></li>
+            <li><a class="  d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                <span class="hide-mobile">Project</span>
+            </a></li>
+            <li><a class="  d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                <i class="fa-solid fa-book-open fa-fw"></i>
+                <span class="hide-mobile">Courses</span>
+            </a></li>
+            <li><a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="freinds.html">
+                <i class="fa-solid fa-user-group fa-fw"></i>
+                <span class="hide-mobile">Freinds</span>
+            </a></li>
+            <li><a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                <i class="fa-solid fa-file fa-fw"></i>
+                <span class="hide-mobile">Files</span>
+            </a></li>
+            <li><a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                <i class="fa-solid fa-layer-group fa-fw"></i>
+                <span class="hide-mobile">Plans</span>
+            </a></li>
+        </ul>
+    </div>
+    <!-- Start Content -->
+    <div class="content w-full">
+      <!-- Start Head -->
+      <div class="head bg-white p-15 between-flex">
+        <div class="search p-relative">
+            <input class="p-10" type="search" placeholder="Type A Keyword">
+
+        </div>
+        <div class="icons d-flex align-center">
+        <span class=" notification  p-relative ">
+            <i class="fa-solid fa-bell fa-lg"></i>
+        </span>
+        <img src="./Images/avatar-05.png" alt="">
+        </div>
+      </div>
+      <!-- End Head -->
+      <!-- Start Courses  -->
+       <h1 class="p-relative">Files</h1>
+       <div class="files-page d-flex m-20 gap-20">
+        <div class="files-stat p-20 bg-white rad-6">
+            <h2 class="mt-0 mb-15 txt-c-mobile">Files Statistics</h2>
+            <div class="d-flex  align-center border-eee p-10 rad-6 mb-15 fs-13">
+                <i class="fa-solid fa-file-pdf fa-lg blue c-blue center-flex icon"></i>
+                <div class="info">
+                    <span>Pdf Files</span>
+                    <span class="c-gray d-block mt-5">130</span>
+                </div>
+                <div class="size c-gray">6.5GB</div>
+            </div>
+            <div class="d-flex  align-center border-eee p-10 rad-6 mb-15 fs-13">
+                <i class="fa-solid fa-images fa-lg green c-green center-flex icon"></i>
+                <div class="info">
+                    <span>Images</span>
+                    <span class="c-gray d-block mt-5">115</span>
+                </div>
+                <div class="size c-gray">2.5GB</div>
+            </div>
+            <div class="d-flex  align-center border-eee p-10 rad-6 mb-15 fs-13">
+                <i class="fa-solid fa-file-word fa-lg red c-red center-flex icon"></i>
+                <div class="info">
+                    <span> Word Files</span>
+                    <span class="c-gray d-block mt-5">110</span>
+                </div>
+                <div class="size c-gray">4.5GB</div>
+            </div>
+            <div class="d-flex  align-center border-eee p-10 rad-6 mb-15 fs-13">
+                <i class="fa-solid fa-file-csv fa-lg orange c-orange center-flex icon"></i>
+                <div class="info">
+                    <span> CSV Files</span>
+                    <span class="c-gray d-block mt-5">99</span>
+                </div>
+                <div class="size c-gray">2.4GB</div>
+            </div>
+            <a class="upload bg-blue c-white fs-13 rad-6 d-block w-fit " href="#">
+                <i class="fa-solid fa-upload mr-10"></i>
+                Upload
+            </a>
+        </div>
+        <div class="files-content d-grid gap-20">
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/pdf.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                <p class="c-gray fs-13">Ali</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">20/06/2021</span>
+                 <span class="">5.3GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/dll-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-dll.pdf</div>
+                <p class="c-gray fs-13">Admin</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">20/05/2021</span>
+                 <span class="">2.3GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/zip.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-zip.pdf</div>
+                <p class="c-gray fs-13">Admin 2</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">05/06/2021</span>
+                 <span class="">1.3GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/avi-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-avi.pdf</div>
+                <p class="c-gray fs-13">Uploader</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">10/07/2021</span>
+                 <span class="">3.1GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/pdf.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                <p class="c-gray fs-13">Admin</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">10/10/2021</span>
+                 <span class="">3.3GB</span>
+                </div>
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/dll-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-dll.pdf</div>
+                <p class="c-gray fs-13">Admin</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">01/09/2021</span>
+                 <span class="">1.9GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/avi-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-avi.pdf</div>
+                <p class="c-gray fs-13">Uploader 2</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">16/02/2021</span>
+                 <span class="">4.1GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/dll-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-dll.pdf</div>
+                <p class="c-gray fs-13">Admin</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">01/09/2021</span>
+                 <span class="">1.9GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/dll-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-dll.pdf</div>
+                <p class="c-gray fs-13">Admin</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">20/05/2021</span>
+                 <span class="">2.3GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/pdf.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                <p class="c-gray fs-13">Ali</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">20/06/2021</span>
+                 <span class="">5.3GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/avi-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-avi.pdf</div>
+                <p class="c-gray fs-13">Uploader</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">10/07/2021</span>
+                 <span class="">3.1GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/avi-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-avi.pdf</div>
+                <p class="c-gray fs-13">Uploader 2</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">16/02/2021</span>
+                 <span class="">4.1GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/pdf.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                <p class="c-gray fs-13">Ali</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">20/06/2021</span>
+                 <span class="">5.3GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/dll-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-dll.pdf</div>
+                <p class="c-gray fs-13">Admin</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">20/05/2021</span>
+                 <span class="">2.3GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/zip.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-zip.pdf</div>
+                <p class="c-gray fs-13">Admin 2</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">05/06/2021</span>
+                 <span class="">1.3GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/avi-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-avi.pdf</div>
+                <p class="c-gray fs-13">Uploader</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">10/07/2021</span>
+                 <span class="">3.1GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/pdf.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                <p class="c-gray fs-13">Admin</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">10/10/2021</span>
+                 <span class="">3.3GB</span>
+                </div>
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/dll-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-dll.pdf</div>
+                <p class="c-gray fs-13">Admin</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">01/09/2021</span>
+                 <span class="">1.9GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/avi-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-avi.pdf</div>
+                <p class="c-gray fs-13">Uploader 2</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">16/02/2021</span>
+                 <span class="">4.1GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/dll-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-dll.pdf</div>
+                <p class="c-gray fs-13">Admin</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">01/09/2021</span>
+                 <span class="">1.9GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/dll-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-dll.pdf</div>
+                <p class="c-gray fs-13">Admin</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">20/05/2021</span>
+                 <span class="">2.3GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/pdf.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                <p class="c-gray fs-13">Ali</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">20/06/2021</span>
+                 <span class="">5.3GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/avi-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-avi.pdf</div>
+                <p class="c-gray fs-13">Uploader</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">10/07/2021</span>
+                 <span class="">3.1GB</span>
+                </div>
+
+            </div>
+            <div class="file bg-white p-10 rad-10 p-relative">
+                <i class="fa-solid fa-download c-gray p-absolute"></i>
+                <div class="txt-c">
+                    <img class="mt-15 mb-15" src="./Images/avi-pic.jpeg" alt="">
+                </div>
+                <div class="txt-c mb-10 fs-14">my-avi.pdf</div>
+                <p class="c-gray fs-13">Uploader 2</p>
+                <div class="info between-flex mt-10 pt-10 fs-13 c-gray">
+                 <span class="">16/02/2021</span>
+                 <span class="">4.1GB</span>
+                </div>
+
+            </div>
+        </div>
+
+       </div>
+       
+    </div>
+    <!-- End Content -->
+ </div>
+</body>
+</html>
